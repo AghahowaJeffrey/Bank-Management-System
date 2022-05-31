@@ -9,10 +9,10 @@ class Bank:
     accounts = []  # A list that stores all created account instance.
 
     def __init__(self, bank_name, bank_location):
-        """ Initializes the fields of bank account objects."""
+        """ Initializes the fields of bank objects."""
         self.bank_name = bank_name  # The name of the bank.
         self.bank_location = bank_location  # The geographical location of the bank.
-        self.current_account = None
+        self.current_account = None  # No account has been logged into.
 
     def open_account(self, name, age, phone_num, pin):
         """ A method that creates a bank account for the particular bank

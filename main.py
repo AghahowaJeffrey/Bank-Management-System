@@ -202,7 +202,7 @@ def main():  # The main program function.
 
 
 if __name__ == '__main__':  # Will run this code if the program is run from this file.
-    while True: # The main program loop.
+    while True:  # The main program loop.
         main()
 
 
